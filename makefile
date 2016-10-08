@@ -12,6 +12,7 @@ local-phone-apps := NfcNci PrintSpooler PacProcessor CertInstaller KeyChain \
 
 local-phone-priv-apps := Shell FusedLocation ProxyHandler ExternalStorageProvider Tag \
 	SharedStorageBackup InputDevices CellBroadcastReceiver BackupRestoreConfirmation \
+	CMSettingsProvider \
 
 local-density := XXXHDPI
 local-target-bit := 64
