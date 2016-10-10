@@ -14,6 +14,8 @@ local-phone-priv-apps := Shell FusedLocation ProxyHandler ExternalStorageProvide
 	SharedStorageBackup InputDevices CellBroadcastReceiver BackupRestoreConfirmation \
 	CMSettingsProvider \
 
+local-modified-jars := org.cyanogenmod.platform
+
 local-density := XXXHDPI
 local-target-bit := 64
 
