@@ -26,3 +26,4 @@ $(local-zip-file):
 	$(hide) touch .delete-zip-file-when-clean
 
 pre-zip-misc:
+	$(TOOLS_DIR)/post_process_props.py out/ZIP/system/build.prop metadata/build.prop
