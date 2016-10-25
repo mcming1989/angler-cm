@@ -21,4 +21,8 @@ local-target-bit := 64
 
 include $(PORT_BUILD)/porting.mk
 
+$(local-zip-file):
+	$(hide) cat partrom/stockrom* > $@
+	$(hide) touch .delete-zip-file-when-clean
+
 pre-zip-misc:
