@@ -8,13 +8,15 @@ local-zip-file     := stockrom.zip
 # All vendor apks needed
 local-phone-apps := NfcNci PrintSpooler PacProcessor CertInstaller KeyChain \
 	Stk qcrilmsgtunnel TimeService UserDictionaryProvider Bluetooth BluetoothMidiService \
-	webview \
+	webview telresources \
 
 local-phone-priv-apps := Shell FusedLocation ProxyHandler ExternalStorageProvider Tag \
 	SharedStorageBackup InputDevices CellBroadcastReceiver BackupRestoreConfirmation \
 	CMSettingsProvider \
 
 local-modified-jars := org.cyanogenmod.platform
+
+local-miui-modified-apps := TeleService
 
 local-density := XXXHDPI
 local-target-bit := 64
