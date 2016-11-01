@@ -16,7 +16,7 @@ local-phone-priv-apps := Shell FusedLocation ProxyHandler ExternalStorageProvide
 
 local-modified-jars := org.cyanogenmod.platform
 
-local-miui-modified-apps := TeleService
+local-miui-modified-apps := TeleService Provision
 
 local-density := XXXHDPI
 local-target-bit := 64
